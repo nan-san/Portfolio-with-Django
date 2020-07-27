@@ -2,14 +2,15 @@
 
 body { 
      margin: 0px;
-     padding-top: 30px; 
+     padding-top: 100px; 
      background-color: #333c5f;
      width: 100%;
-     
+     -webkit-text-size-adjust: 100%;
     }
 
 
-/* footer{
+
+footer{
     width: 100%;
     background-color: green;
     background-size: auto;
@@ -18,25 +19,6 @@ body {
     padding: 20px 0;
     left: 0;
     position: absolute;/*←絶対位置*/
-    /* bottom: 0; 下に固定 */
- 
-
-.footerWrap{
-    width: 100%;
-    background-color: green;
-    position: absolute;
-    bottom: 0;
-    position: absolute;
-    bottom: 0;
-}
-
-.footer {
-	width:100%; /* フッター幅を指定*/
-    margin:0 auto;
-    color: #fff;
-    padding: 10px ;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
+    bottom: 0; /*下に固定*/
 }
 
