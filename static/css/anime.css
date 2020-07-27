@@ -1,0 +1,130 @@
+@charset "UFT-8";
+
+/* anime{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: auto;
+}
+
+anime .content{
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+} */
+
+/* #logo {
+position: absolute;
+} */
+
+
+
+
+
+/* @keyframes write {
+0% {
+stroke-dashoffset: 2000;
+fill:transparent;
+}
+50% {
+fill:transparent;
+}
+100% {
+stroke-dashoffset: 0;
+fill: rgb(48, 28, 121);
+}
+}
+
+@-webkit-keyframes write {
+0% {
+stroke-dashoffset: 2000;
+fill:transparent;
+}
+50% {
+fill:transparent;
+}
+100% {
+stroke-dashoffset: 0;
+fill:rgb(30, 32, 100);
+}
+} */
+
+
+
+body {
+    background-color:  #268172;
+    padding: 10rem;
+   
+   }
+
+
+
+main{
+   top:0;
+   right:0;
+   bottom:0;
+   left:0;
+   margin:0 auto;
+   position: relative; /*中央揃えしたい要素の親要素に指定*/
+ }
+
+/* .square {
+   margin: 50% 20%;
+   background-color: #fff;
+   width: 28px;
+   height: 28px;
+} */
+
+/* .elem {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+} */
+
+.elem {
+    background: url("{% static 'img/kao.png' %}");
+   /* background-color: '#384878'; */
+   position:absolute;
+   align-items: center;
+   top:0;
+   right:0;
+   bottom:0;
+   left:0;
+   margin:0 auto;
+   background-size: 100%;
+   width: 200px;
+   height: 80px;
+   /* line-height: 1px; */
+   /* padding: 0.5px; */
+   /* border-radius: 50%; */
+   /* margin: 10% 30%; */
+   z-index: 1;
+}
+
+.elem a {
+    background:url('#');  
+}
+
+
+/* .elem:hover {
+    background-image: url("{% static 'img/kao.png' %}"); */
+
+
+.elem::after{
+   content:"Welcome to my Portfolio!";
+   margin-top: 5rem;
+   text-align: center;
+   font-size: 15px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgb(253, 249, 11,0.8);
+   /* position: absolute; */
+   display: inline;
+   z-index: -1;
+}
+
+

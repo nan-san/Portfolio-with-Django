@@ -1,0 +1,16 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+
+{% block js %}
+var animation =anime({
+    targets: '.elem',
+    translateX: 10,
+    scale: 2,
+    rotate: '1turn',
+    backgroundColor: '#384878',
+    background
+    duration: 4000,
+    loop: false,
+});
+
+{% endblock js %}
