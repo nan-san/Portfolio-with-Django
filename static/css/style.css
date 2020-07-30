@@ -379,6 +379,8 @@ footer {
   text-align: center;
   bottom: 0; */
   font-size: 3rem;
+  padding-top: 3rem;
+  text-align: center;
 }
 
 /* .footer{
@@ -429,4 +431,10 @@ fill:transparent;
 stroke-dashoffset: 0;
 fill:#000;
 }
+}
+
+.result {
+  text-align: center;
+  padding-bottom: 10rem;
+  font-size: 3rem;
 }

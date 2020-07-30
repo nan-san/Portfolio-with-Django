@@ -3,6 +3,22 @@
 
 {% block content %}
 
+<!-- アニメーション部分 -->
+      <div class="jumbotron">
+            <div class="container">
+                <div class="row text-center" >
+                    <div class="box" >
+                        {% include 'portfolio/anime.html' %}
+                        <div class="text" >
+                            <h1>welcome to my Portfolio!</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- メイン -->
        <div class="container">
         <div class="starter-template">
            <div class="box001">
@@ -85,11 +101,11 @@
              <div class="container">
                     <div class="col-sm-6 col-md-4">
                             <div class="box5">
-                                <a class="btn" href="https://ecosystem-26edd.web.app/" >
+                                <a class="btn" href="{% static 'img/haseblo.png'%}" data-lightbox="group" >
                                     <h3>Webサイト</h3>
-                                    <p>（css template使用）</p>
-                                    <p>エコシステム</p>
-                                    <img src="{% static 'img/fukei1.png' %}"width="270" height="170">
+                                    <p>活動内容ページ担当</p>
+                                    <p>ハセブロ公式Webサイト制作</p>
+                                    <img src="{% static 'img/haseblo.png' %}"width="270" height="170">
                                 </a>
                             </div>
                     </div> 
@@ -143,5 +159,7 @@
                             </div>
                         </div>                
               </div>
+
+              
 
 {% endblock content %}
