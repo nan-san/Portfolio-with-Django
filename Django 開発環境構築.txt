@@ -2,7 +2,7 @@
 １，	mkdir Django-Twitter-Clone-Original
 ２，	Django-Twitter-Clone-Originalへディレクトリーを移動する
 ３，	仮想環境のインストール　python -m venv env
-４，	仮想環境を立ち上げる：env\Scripts\activate　（for Windows） 
+４，	仮想環境を立ち上げる：ma　（for Windows） 
 ５，	ここでDjangoもインストールしてプロジェクトを作成する。
 ①	pipenv install django
 ②django-admin startproject config .

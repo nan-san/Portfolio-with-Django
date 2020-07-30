@@ -2,5 +2,169 @@
 {% load static %}
 
 {% block content %}
-   Hello World!
+
+    <!-- <div class="jumbotron">
+       
+    </div> -->
+    
+    <div class="container">
+        <div class="starter-template">
+           <div class="box001">
+                <!-- <div class="row text-center"> -->
+                    <div class="col-md-12">
+                        <h2 class="about">　自己紹介　</h2>
+                    </div>
+                    <br>
+                    <div class="col-md-4 col-sm-12">
+                           <img src="{% static 'img/kao.png' %}" class="foto">
+                    </div>
+                    <div class="col-md-8 col-xs-12">
+                        <div class="list" >
+                            <ul>
+                                <li>氏名:　なん</li>
+                                <li>出身：　東京、千葉、ドイツ在住</li>
+                                <li>学歴：　多摩美術大学院 絵画学科 版画専攻、メディアアーツ尚美専門学校
+                                <li>志：
+                                    「モノを生み出す努力」「創造し続ける忍耐力」「事実に元づく想像」
+                                <br>
+                                    お客様が求めているご要望にお応えする努力を惜しまず、楽しく。
+                            
+                                </li>
+                                <li>好きな事：　多肉植物栽培、散歩、自由に踊る、キャンプ、版画</li>
+                                <li>
+                                    
+                                    <p>Blog：
+                                    <a class="btn02" href="https://kitztzki.com" >
+                                    キツツキブログ
+                                    </a></p></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+          </div>   
+        </div> 
+    </div>       
+        <br>
+        <br>
+        <br>
+         <div class="info"  id="skills">
+             <h2 class="box01">Skills</h2> 
+         </div>  
+                 <div class="col-sm-4">
+                        <!--アイコンサイト： https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp -->
+                     <div class="box2">
+                        <h3 class="color-talk"><span class="glyphicon glyphicon-volume-up icon-size"></span><br>言語</h3>
+                        <p>HTML 　　■■■■</p>
+                        <p>CSS　　■■■</p>
+                        <p>Python　　■■</p>
+                        <p>anime.js　　■</p>
+                     </div>
+                 </div>
+          
+                 <div class="col-sm-4">
+                     <div class="box3">
+                        <h3 class="color-wrench"><span class="glyphicon glyphicon-wrench icon-size"></span><br>作る</h3>
+                        <p>Webページ</p>
+                         <p>Django-CRUD</p>
+                     </div>
+                 </div>
+                 <div class="col-sm-4">
+                      <div class="box4">
+                        <h3 class="color-pencil"><span class="glyphicon glyphicon-pencil icon-size"></span><br>勉強</h3>
+                        <p>スクレイピング　API</p>
+                        <p>アニメーション</p>
+                        <p>AWS</p>
+                     </div>
+                </div>
+         </div>
+            
+        <div class="sakuhin" id="works">
+            <h2 class="box02">Works</h2>
+       
+             <div class="col-sm-4">
+                <div class="box5">
+                    <a class="btn" href="https://ecosystem-26edd.web.app/" >
+                        <h3>Webサイト</h3>
+                        <p>（css template使用）</p>
+                        <p>エコシステム</p>
+                        <img src="{% static 'img/fukei1.png' %}"width="270" height="170">
+                    </a>
+                </div>
+             </div> 
+                    <div class="col-sm-4">
+                         <div class="box5">
+                               <a class ="btn" href="https://german-sprach-1c133.web.app/" >
+                                <h3>Webサイト</h3>
+                                <p>（css template使用）</p>
+                                <p>ドイツ語会話学習</p>
+                                <img src="{% static 'img/german.png' %}"width="290" height="170">
+                              </a>
+                         </div>
+                    </div>  
+                    <div class="col-sm-4">
+                        <div class="box5">
+                            <a class ="btn" href="https://cosme-31a02.web.app/" >
+                                <h3>Webサイト</h3>
+                                <p>（css template使用）</p>
+                                <p>スキンケア商品</p>
+                                <img src="{% static 'img/image02.png' %}"width="290" height="170">
+                            </a>
+                     </div>
+                 </div>  
+           </div>
+         
+            <hr>
+
+          <div class="info2" id="other">
+                <h2 class="box03"></h2>
+                <div class="col-sm-4">
+                    <div class="box6">
+                      <a class="btn" href="{% static 'img/image05.png' %}" data-lightbox="group"  >
+                          <h3>LP&バナーデザイン</h3>
+                          <p>（Photoshop, Illustrator使用）</p>
+                          <p>自然派化粧品</p>
+                          <img src="{% static 'img/image07.jpg' %}" width="300" height="250">
+                      </a>   
+                    </div> 
+                </div>   
+                 <div class="col-sm-4">
+                        <div class="box6">
+                            <a class="btn"  href="{% static 'img/LP German Sprach.jpg' %}" data-lightbox="group">
+                            <h3>LP＆バナーデザイン</h3>
+                            <p>（Photoshop, Illustrator使用）</p>
+                            <p>ドイツ語会話</p>
+                            <img src="{% static 'img/image08.jpg' %}" width="300" height="250">
+                           </a>
+                        </div>
+                 </div>           
+                 <div class="col-sm-4">
+                    <div class="box6">
+                        <a  class="btn" href="https://atsuko-minami.jimdofree.com/" >
+                        <h3>版画・絵画作品</h3>
+                        <p>ポートフォリオ</p>
+                        <img src="{% static 'img/image06.jpg' %}"width="300" height="180">
+                        </a>
+                    </div>
+                 </div>                
+           </div>
+           
+           
+            <div class="container">
+                <div class="row">
+                    <div class="box10">
+                      <div class="col-sm-4"> </div>
+                    </div>
+                </div>
+           </div>
+           
+
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+
+            <div id="page_top"><a href="#"></a></div>
+
+            
+
+       
+
 {% endblock content %}
