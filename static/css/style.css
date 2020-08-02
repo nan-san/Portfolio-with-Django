@@ -23,15 +23,34 @@ body {
     
 }
 
-.about {
+#about{
+  font-size: 50px;
+  margin-bottom: 20px;
   text-align: center;
+  display: block;
+  padding-top: 100px;
+  margin-top: -70px;
+}
+
+.about{
+  font-size: 50px;
+}
+/* .about {
+  text-align: center;
+  margin-top: 2rem;
   margin: 10px,0px,50px, 0px;
   margin-bottom: 50px;
   color: rgb(51, 51, 80);
   font-size: 50px;
   font-family: inherit;
-  
+} */
+
+.col-md-12{
+  display: block;
+  padding-top: 70px;
+  margin-top: -70px;
 }
+
 
 .list{
     font-size: 2rem;
@@ -41,7 +60,8 @@ body {
   background-color: #fff;
   width: 100%;
   height: 100%;
-
+  margin-top: 5rem;
+  padding-top: 7rem;
 }
 
 
@@ -75,6 +95,9 @@ body {
   font-size: 50px;
   margin-bottom: 50px;
   text-align: center;
+  display: block;
+  padding-top: 70px;
+  margin-top: -70px;
 }
 
 
@@ -159,7 +182,12 @@ body {
   font-size: 50px;
   margin-bottom: 50px;
   text-align: center;
+  display: block;
+  padding-top: 70px;
+  margin-top: -70px;
 }
+
+
 
 .box02{
  text-align: center;
@@ -171,7 +199,9 @@ body {
   font-family: inherit;
 }
 
-
+.col-sm-6 .col-md-4{
+   width: 80%;
+}
 
 /* .box02{
   
@@ -211,6 +241,7 @@ ul{
   display       : inline-block;
 
 }
+
 
 .btn img{
   
@@ -415,7 +446,7 @@ fill:transparent;
 }
 100% {
 stroke-dashoffset: 0;
-fill:#000;
+fill::rgb(87, 58, 134);
 }
 }
 
@@ -429,7 +460,7 @@ fill:transparent;
 }
 100% {
 stroke-dashoffset: 0;
-fill:#000;
+fill:rgb(87, 58, 134);
 }
 }
 
