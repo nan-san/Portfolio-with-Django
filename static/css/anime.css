@@ -6,7 +6,7 @@ position: absolute;
 
 path {
 fill: none; /*塗り*/
-stroke: #000; /*線の色*/
+stroke: rgb(87, 58, 134); /*線の色*/
 stroke-dasharray: 2000;/*線の間隔*/
 stroke-dashoffset: 0;/*線の開始位置*/
 stroke-width: 1;/*線の太さ*/
@@ -24,7 +24,7 @@ fill:transparent;
 }
 100% {
 stroke-dashoffset: 0;
-fill::rgb(87, 58, 134);
+fill:rgb(87, 58, 134);
 }
 }
 
