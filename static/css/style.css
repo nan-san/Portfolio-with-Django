@@ -266,9 +266,17 @@ ul{
   /* padding: 30px; */
 }
 
+/* 文字の折り返し */
+p{
+  width: 100%;
+}
+p.moji{
+  word-break: break-all;
+}
+
 
 .box5 {
-  width: 100%;
+  width: 90%;
   height: 100%;
   background: white;
   text-align: center;
@@ -286,7 +294,7 @@ ul{
 
 .box6 {
 width: 100%;
-height: 80%;
+height: 100%;
 background: white;
 text-align: center;
 margin-bottom: 1em;

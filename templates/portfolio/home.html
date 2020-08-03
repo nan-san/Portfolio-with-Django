@@ -72,6 +72,7 @@
                         <p>Python（Django）　　■■</p>
                         <p>anime.js　　■</p>
                         <p>Photoshop　　■■■■</p>
+                        <p>Backlog、Slack、Chatwork</p>
                      </div>
                  </div>
           
@@ -79,16 +80,18 @@
                      <div class="box3">
                         <h3 class="color-wrench"><i class="fas fa-laptop-code icon-size"></i></span>作る</h3>
                         <p>Webページコーディング</p>
-                         <p>Webデザイン</p>
-                         <p>API画像取得</p>
-                         <p></p>
+                         <p>コンタクトフォーム実装</p>
+                         <p>Webバナー＆サイトデザイン</p>
+                         <p>イラスト</p>
                          <p></p>
                      </div>
                  </div>
                  <div class="col-sm-6 col-md-4">
                       <div class="box4">
                         <h3 class="color-pencil"><i class="fas fa-pencil-alt icon-size"></i></span>勉強</h3>
+                        <p>Python</p>
                         <p>スクレイピング　API</p>
+                        <p>Swift</p>
                         <p>アニメーション</p>
                         <p>AWS</p>
                      </div>
@@ -98,10 +101,11 @@
         <div class="sakuhin" id="works">
             <h2 class="box02">Works</h2>
              <div class="container">
-                    <div class="col-sm-6 col-md-4">
+                    
+                        <div class="col-sm-6 col-md-4">
                             <div class="box5">
-                                <a class="btn" href="{% static 'img/haseblo.png'%}" data-lightbox="group" >
-                                    <h3>Webサイト</h3>
+                                <a class="btn" href="{% static 'img/haseblo.png'%}" data-lightbox="haseblo" >
+                                    <h3>Webサイト（実務）</h3>
                                     <p>活動内容ページ担当</p>
                                     <p>ハセブロ公式Webサイト制作</p>
                                     <img src="{% static 'img/haseblo.png' %}"width="270" height="170">
@@ -128,13 +132,56 @@
                                     </a>
                             </div>
                         </div>  
+
+
+                        <div class="col-sm-6 col-md-4">
+                            <div class="box5">
+                                <a class="btn" href="{% static 'img/tensorflow01.png' %}" data-lightbox="tensorflow" >
+                                    <h3>APIで画像取得</h3>
+                                    <p>ファイルに振り分け</p>
+                                    <p></p>
+                                    <img src="{% static 'img/tensorflow01.png' %}"width="270" height="170">
+                                </a>
+                                <a href="{% static 'img/tensorflow02.png' %}" data-lightbox="tensorflow"></a>
+                                <a href="{% static 'img/tensorflow03.png' %}" data-lightbox="tensorflow"></a>
+                            </div>
+                     </div> 
+                        <div class="col-sm-6 col-md-4">
+                                <div class="box5">
+                                    <a class ="btn" href="{% static 'img/NumPy01.png' %}"data-lightbox="numpy" >
+                                    <h3>NumPy配列に変換</h3>
+                                    <p>jupyter　Notebook</p>
+                                    <p class="moji">ライブラリー：pillow, sklearn</p>
+                                    <img src="{% static 'img/NumPy01.png' %}"width="270" height="170">
+                                    </a>
+                                    <a href="{% static 'img/NumPy02.png' %}" data-lightbox="numpy"></a>
+                                </div>
+                        </div>  
+                            <div class="col-sm-6 col-md-4">
+                                <div class="box5">
+                                    <a class ="btn" href="{% static 'img/js01.png' %}"data-lightbox="js" >
+                                        <h3>Javascript</h3>
+                                        <p>おみくじ</p>
+                                        <p class="moji">クリックでランダムに結果が表示</p>
+                                        <img src="{% static 'img/js01.png' %}"width="270" height="170">
+                                    </a>
+                                    <a href="{% static 'img/omikuji.png' %}" data-lightbox="js"></a>
+                                </div>
+                            </div>
+                       
+
+
+
+
+
+                        
                         <div class="col-sm-6 col-md-4">
                             <div class="box6">
                                 <a class="btn" href="{% static 'img/image05.jpg'%}" data-lightbox="group">
                                     <h3>LP&バナーデザイン</h3>
-                                    <p>（Photoshop, Illustrator使用）</p>
+                                    <p class="moji">（Photoshop, Illustrator使用）</p>
                                     <p>自然派化粧品</p>
-                                    <img src="{% static 'img/image07.jpg' %}" width="300" height="250">
+                                    <img src="{% static 'img/image07.jpg' %}" width="290" height="250">
                                 </a>   
                             </div> 
                         </div>   
@@ -142,7 +189,7 @@
                                 <div class="box6">
                                     <a class="btn"  href="{% static 'img/LP German Sprach.jpg' %}" data-lightbox="group">
                                     <h3>LP＆バナーデザイン</h3>
-                                    <p>（Photoshop, Illustrator使用）</p>
+                                    <p class="moji">（Photoshop, Illustrator使用）</p>
                                     <p>ドイツ語会話</p>
                                     <img src="{% static 'img/image08.jpg' %}" width="300" height="250">
                                 </a>
@@ -152,11 +199,13 @@
                             <div class="box6">
                                 <a  class="btn" href="https://atsuko-minami.jimdofree.com/" >
                                 <h3>版画・絵画作品</h3>
-                                <p>ポートフォリオ</p>
+                                <p>木版画・リトグラフ</p>
+                                <p>アクリル画・水彩画</p>
                                 <img src="{% static 'img/image06.jpg' %}"width="300" height="180">
                                 </a>
                             </div>
                         </div>                
+                        
               </div>
 
               
