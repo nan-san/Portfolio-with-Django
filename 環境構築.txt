@@ -1,0 +1,14 @@
+環境構築
+１，	mkdir Django-Twitter-Clone-Original
+２，	Django-Twitter-Clone-Originalへディレクトリーを移動する
+３，	仮想環境のインストール　python -m venv env
+４，	仮想環境を立ち上げる：env\Scripts\activate　（for Windows） 
+５，	ここでDjangoもインストールしてプロジェクトを作成する。
+①	pipenv install django
+②django-admin startproject config .
+　
+６，	新しく作りたいアプリファイルを作成　python manage.py startapp blog
+７，	今回使うフレームワークの情報requirements.txt.を作成＆インストール　pip install -r requirements.txt
+８，	そのデータをデータベースにmakemigrationsする：python manage.py makemigrations &
+９，	python manage.py migrate.
+１０，	とりあえず確認でサーバーを立ち上げてみる：python manage.py runserver

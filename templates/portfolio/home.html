@@ -4,6 +4,19 @@
 {% block content %}
 
 <!-- アニメーション部分 -->
+
+    <!-- <div class="wrapper">
+        <canvas id="mainCanvas" width=1024 height=720 style="position: relative; left: 50%; margin-left: -480px; top: 50%; margin-top: 0px; ">
+        </canvas>
+        <img id="25" width="0" height="0" src="{% static 'img/25.png' %}">
+        <script src="{% static 'js/data.js' %}"></script>
+        <script src="{% static 'js/script.js' %}"></script>
+        <script>
+        window.onload = function() { loadMedia(); }
+        </script>
+        
+    </div> -->
+
       <div class="jumbotron">
             <div class="container">
                 <div class="row text-center" >
@@ -69,11 +82,13 @@
                         <!--アイコンサイト： https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp -->
                      <div class="box2">
                         <h3 class="color-talk"><i class="fas fa-wrench icon-size"></i>ツール</h3>
-                        <p>HTML 　　■■■■</p>
-                        <p>CSS　　■■■</p>
-                        <p>Python（Django）　　■■</p>
+                        <p>Python（Django）　　■■■</p>
+                        <p>HTML&CSS 　　■■■</p>
+                        <p>Javascript　　■■</p>
+                        <p>Git　　■■</p>
                         <p>anime.js　　■</p>
                         <p>Photoshop　　■■■■</p>
+                        <p>Filmora9, ExpressAnimate　　■■</p>
                         <p>Backlog、Slack、Chatwork</p>
                      </div>
                  </div>
@@ -82,16 +97,18 @@
                      <div class="box3">
                         <h3 class="color-wrench"><i class="fas fa-laptop-code icon-size"></i></span>作る</h3>
                         <p>Webページコーディング</p>
-                         <p>コンタクトフォーム実装</p>
+                         <p>(コンタクトフォーム実装)</p>
                          <p>Webバナー＆サイトデザイン</p>
+                         <p>Gifアニメーション</p>
                          <p>イラスト</p>
+                         <p>動画編集</p>
                          <p></p>
                      </div>
                  </div>
                  <div class="col-sm-6 col-md-4">
                       <div class="box4">
                         <h3 class="color-pencil"><i class="fas fa-pencil-alt icon-size"></i></span>勉強</h3>
-                        <p>Python</p>
+                        <p>アプリのデプロイ</p>
                         <p>スクレイピング　API</p>
                         <p>Swift</p>
                         <p>アニメーション</p>
@@ -107,32 +124,31 @@
                         <div class="col-sm-6 col-md-4">
                             <div class="box5">
                                 <a class="btn" href="{% static 'img/haseblo.png'%}" data-lightbox="haseblo" >
-                                    <h3>Webサイト（実務）</h3>
+                                    <h3>ハセブロ公式Webサイト</h3>
                                     <p>活動内容ページ担当</p>
-                                    <p>ハセブロ公式Webサイト制作</p>
+                                    <p>Gitを使用したチーム開発</p>
                                     <img src="{% static 'img/haseblo.png' %}"width="270" height="170">
                                 </a>
-                                <a href="img/haseblo02.png" data-lightbox="haseblo"></a>
-                                <a href="img/haseblo03.png" data-lightbox="haseblo"></a>
+                                <a href="{% static 'img/haseblo02.png' %}" data-lightbox="haseblo"></a>
+                                <a href="{% static 'img/haseblo03.png' %}" data-lightbox="haseblo"></a>
                             </div>
                     </div> 
                         <div class="col-sm-6 col-md-4">
                                 <div class="box5">
                                     <a class ="btn" href="https://german-sprach-1c133.web.app/" >
                                     <h3>Webサイト</h3>
-                                    <p>（css template使用）</p>
-                                    <p>ドイツ語会話学習</p>
+                                    <p>css template使用練習</p>
                                     <img src="{% static 'img/german.png' %}"width="290" height="170">
                                     </a>
                                 </div>
                         </div>  
                             <div class="col-sm-6 col-md-4">
                                 <div class="box5">
-                                    <a class ="btn" href="https://cosme-31a02.web.app/" >
-                                        <h3>Webサイト</h3>
-                                        <p>（css template使用）</p>
-                                        <p>スキンケア商品</p>
-                                        <img src="{% static 'img/image02.png' %}"width="290" height="170">
+                                    <a class ="btn" href="{% static 'img/image03.png' %}"data-lightbox="web" >
+                                        <h3>システム開発工程</h3>
+                                        <p>プロジェクト計画書</p>
+                                        <p>要件定義</p>
+                                        <img src="{% static 'img/image03.png' %}"data-lightbox="web"　width="290" height="170">
                                     </a>
                             </div>
                         </div>  
@@ -182,29 +198,22 @@
                         <div class="col-sm-6 col-md-4">
                             <div class="box6">
                                 <a class="btn" href="{% static 'img/image05.jpg'%}" data-lightbox="group">
-                                    <h3>LP&バナーデザイン</h3>
+                                    <h3>デザインカンプ</h3>
+                                    <p>バナー作成</p></h3>
                                     <p class="moji">（Photoshop, Illustrator使用）</p>
-                                    <p>自然派化粧品</p>
                                     <img src="{% static 'img/image07.jpg' %}" width="290" height="250">
-                                </a>   
+                                </a>
+                                <a href="{% static 'img/image07.jpg' %}" data-lightbox="banner" width="250" height="250"></a>
+                                <a href="{% static 'img/image08.jpg' %}" data-lightbox="banner" width="250" height="250"></a>
+                                <a href="{% static 'img/LP German Sprach.jpg' %}" data-lightbox="banner" width="250" height="250"></a>   
                             </div> 
                         </div>   
                         <div class="col-sm-6 col-md-4">
-                                <div class="box6">
-                                    <a class="btn"  href="{% static 'img/LP German Sprach.jpg' %}" data-lightbox="group">
-                                    <h3>LP＆バナーデザイン</h3>
-                                    <p class="moji">（Photoshop, Illustrator使用）</p>
-                                    <p>ドイツ語会話</p>
-                                    <img src="{% static 'img/image08.jpg' %}" width="300" height="250">
-                                </a>
-                                </div>
-                        </div>           
-                        <div class="col-sm-6 col-md-4">
                             <div class="box6">
                                 <a  class="btn" href="https://atsuko-minami.jimdofree.com/" >
-                                <h3>版画・絵画作品</h3>
-                                <p>木版画・リトグラフ</p>
-                                <p>アクリル画・水彩画</p>
+                                    <h3>イラスト</h3>
+                                    <p>木版画・リトグラフ</p>
+                                    <p>アクリル画・水彩画</p>
                                 <img src="{% static 'img/image06.jpg' %}"width="300" height="180">
                                 </a>
                             </div>

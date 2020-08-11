@@ -31,9 +31,16 @@
       fitImagesInViewport : true,
       })
     </script>
+
+    <script type="text/javascript" src="js/anime.min.js"></script>
+    <script>
+    $(function(){ 
+    $.ajaxSetup({cache:false}); $("#include").load("anime.html"); 
+    });
+    </script>
     
 </head>
-  <body>
+  <body ontouchstart="">
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
