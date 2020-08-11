@@ -131,3 +131,8 @@ EMAIL_HOST_USER = 'kitztzki@gmail.com'
 EMAIL_HOST_PASSWORD = 'cxqldrfilkpkqifj'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+
+# Pythonanywhere用の設定を追加
+
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
